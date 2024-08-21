@@ -1,5 +1,6 @@
 # forex-and-stock-price-prediction-using-radom-forest-classifier
 #Forex Price Prediction with Random Forest Classifier
+
 Project Overview
 This project uses a RandomForestClassifier to predict future movements in forex prices. The model is trained on historical data, using rolling minimum and maximum values of closing prices to derive features that inform the predictions. The primary goal is to determine whether the price will significantly move upward or downward within the next 10 days.
 
