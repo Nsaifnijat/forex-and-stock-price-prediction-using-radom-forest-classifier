@@ -5,6 +5,10 @@ Project Overview
 
 This project uses a RandomForestClassifier to predict future movements in forex prices. The model is trained on historical data, using rolling minimum and maximum values of closing prices to derive features that inform the predictions. The primary goal is to determine whether the price will significantly move upward or downward within the next 10 days.
 
+
+Note:
+you need to run the feature engineering file in order to generate the featured_data.csv. since it generates a dense data the size will be big, that's I remove it from repo due to its large size.
+
 Dependencies
 To run this project, you will need the following Python libraries:
 pandas
