@@ -38,8 +38,6 @@ The backtest function is used to simulate the trading strategy on historical dat
 Usage
 Load Data:
 
-python
-Copy code
 df = pd.read_csv('featured_data.csv', index_col=['time'])
 Calculate Features:
 The code automatically calculates rolling features and target labels.
